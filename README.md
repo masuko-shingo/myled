@@ -20,6 +20,9 @@ $ sudo chmod 666 /dev/myled0
 $ sudo echo 1 > /dev/myled0
 $ sudo echo 2 > /dev/myled0
 $ sudo echo 0 > /dev/myled0
+$ sudo echo 2 > /dev/myled0
+$ sudo echo 1 > /dev/myled0
+$ sudo echo 0 > /dev/myled0
 $ sudo rmmod myled.ko
 ```
 echo 1で緑色のLED,echo 2で赤色のLED,echo 0でLEDを消灯させる．
