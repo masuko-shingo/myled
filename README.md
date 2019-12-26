@@ -9,7 +9,7 @@ robosys2019 課題
 
 ### 実行方法
 ```
-$ git clone 
+$ git clone https://github.com/todasayaka/myled.git
 $ cd myled
 $ make
 $ sudo insmod myled.ko
@@ -20,6 +20,9 @@ $ sudo echo 0 > /dev/myled0
 $ sudo rmmod myled.ko
 ```
 echo 1で緑色のLED,echo 2で赤色のLED,echo 0でLEDを消灯させる．
+
+### 回路図
+
 
 ### Demo
 https://www.youtube.com/watch?v=1L0XntVSnkU
